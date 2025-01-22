@@ -1,0 +1,147 @@
+@media (max-width: 319px){
+    .menu__repair::before {
+        content: "";
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .container{
+        padding: 0 24px;
+    }
+    .mobile{
+        display: flex;
+    }
+    .menu__burger::after {
+        content: "";
+        display: block;
+        height: 32px;
+        width: 2px;
+        background-color: #EAEAEA;
+        position: absolute;
+        left: 60px; 
+        top: 4px;
+      }
+
+      .menu__burger{
+        margin-right: 32px;
+      }
+
+      .menu__repair{
+        margin-left: 32px;  
+      }
+
+      .section{
+        flex-direction: row;
+      }
+
+      .container_half{
+        max-width: 50%;
+      }
+
+      .container_half__image{
+        min-width: 360px;
+        height: auto;
+        width: 100%;
+        margin-left:0;
+        margin-top: 0;
+        border-radius: 10px;
+
+      }
+      .container_half__text{
+        padding-right: 44px;
+        padding-left: 0px;
+        margin-top: 0;
+
+      }
+      .title::before{
+        left: -24px;
+      }
+}
+
+@media (min-width: 1120px) {
+
+
+
+    .menu__burger::after {
+        content: "";
+        display: block;
+        height: 32px;
+        width: 2px;
+        background-color: #EAEAEA;
+        position: absolute;
+        left: 60px; 
+        top: 4px;
+      }
+
+      .section{
+        flex-direction: row;
+    }
+
+    .container_half__text{
+        padding-right: 84px;
+        padding-left: 0px;
+    }
+
+    .container{
+        padding: 0 32px
+    }
+
+    .menu{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        margin-right: 34px;
+        padding: 0px;
+
+        padding-top: 31px;
+    }
+
+    .title::before{
+        left: -32px;
+    }
+    
+    .menu__flexstart{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+      .menu__repair::before {
+        display: none;
+      }
+
+    .info__list {
+        flex-wrap: wrap;
+    }
+
+    .menu__link{
+        display: flex;
+        justify-self: center;
+        text-decoration: none;
+        font-size: 16px;
+        color:#1B1C21;
+        line-height: 24px;
+      }
+      .menu__text{
+        display: block;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-right: 8px;
+    }
+    .desktop_link{
+        display: inherit;
+    }
+    .tablet_link{
+        display: none;
+    }
+    .checkstatus{
+        margin-left: 32px;
+    }
+    .main-block{
+        display: block;
+        padding-top: 36px;
+    }
+}
