@@ -1,9 +1,11 @@
 @font-face {
   font-family: "TTLakes-Regular";
-  src: url("./font/TTLakes-Regular.ttf");
+  src: url("../font/TTLakes-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }
+
+
 
 
 * {
