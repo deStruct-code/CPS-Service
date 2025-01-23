@@ -142,5 +142,6 @@
     .main-block{
         display: block;
         padding-top: 36px;
+        border-top: none;
     }
 }
