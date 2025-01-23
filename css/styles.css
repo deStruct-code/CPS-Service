@@ -174,10 +174,12 @@ header{
 .container_half__text {
   display: flex;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 18px;
   color: #1B1C21;
   cursor: default;
   margin-bottom: 20px;
+  max-height: 90px;
+  overflow-y: hidden;
 }
 
 .text__read-more {
